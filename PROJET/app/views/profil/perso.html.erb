@@ -1,0 +1,8 @@
+<h1>Profil de <%= @gossips[((params[:id]).to_i - 1)].user.first_name %> </h1>
+
+<div class= container>
+	<p>Prénom : <%= @gossips[((params[:id]).to_i - 1)].user.first_name %></p>
+	<p>Nom : <%= @gossips[((params[:id]).to_i - 1)].user.last_name %></p>
+
+<p></p>
+</div>

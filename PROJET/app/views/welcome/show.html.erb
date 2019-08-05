@@ -1,0 +1,8 @@
+<h1><%= @gossips[((params[:id]).to_i - 1)].title %> !</h1>
+
+<div class= "container">
+	
+<p> Auteur : <a <%= link_to "#{@gossips[((params[:id]).to_i - 1)].user.first_name}", profil_path(params[:id]) %> </a></p>
+<h3> <%= @gossips[((params[:id]).to_i - 1)].content %> </h3>
+</div>
+

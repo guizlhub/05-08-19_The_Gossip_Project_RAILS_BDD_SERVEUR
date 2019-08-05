@@ -1,0 +1,5 @@
+class AddColumnTitle < ActiveRecord::Migration[5.2]
+  def change
+  	add_column :gossips, :title, :string 
+  end
+end

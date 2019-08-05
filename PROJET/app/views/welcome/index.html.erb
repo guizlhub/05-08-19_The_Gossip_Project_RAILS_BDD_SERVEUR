@@ -1,0 +1,29 @@
+<h1>Bienvenue sur The Gossip Project!</h1>
+<div class="container"><br />
+<h3>Voici les gossips:</h3>
+	
+	
+	<% n = 1 %>
+	<p><% @gossips.each do |gossip|%>
+	<% @id = n %>
+
+<div class="card text-center">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+
+       <h5 class="card-title"><a <%= link_to "Gossip n°#{n}", welcome_path(@id) %> </a></h5>
+    <p class="card-text"><a <%= link_to "De #{gossip.user.first_name}: 
+    #{gossip[:title]}", welcome_path(@id) %> </a></p>
+
+  </div>
+  <div class="card-footer text-muted">
+    2 days ago
+  </div>
+</div>
+</div>
+
+
+	<% n = n + 1 %>
+
+    <% end %> </p>
