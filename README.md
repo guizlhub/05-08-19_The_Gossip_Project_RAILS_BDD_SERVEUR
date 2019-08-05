@@ -1,0 +1,1 @@
+# 05-08-19_The_Gossip_Project_RAILS_BDD_SERVEUR
