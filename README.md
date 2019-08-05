@@ -35,8 +35,8 @@ pour lancer l'appication,
                     - Dans les liens <a href=#> Lien </a>; et mettre le lien ici du type:
                     '<%= link_to "Home", index_path %> '
                   Signifiant:
-                    <% %> : signifiant que ce qui est entre ses balises est du language ruby
-                    <%= %> : signifiant que ce qui est entre ses balises est du language ruby 
+                    <% %> : signifiant que ce qui est entre ces balises est du language ruby
+                    <%= %> : signifiant que ce qui est entre ces balises est du language ruby 
                              et qu'il faut l'afficher dans le navigateur
                     link_to "Texte_a_cliquer_pour_acceder_au_lien", "nom_du_chemin_accedant_a_la_page_desiré"_path
                   
