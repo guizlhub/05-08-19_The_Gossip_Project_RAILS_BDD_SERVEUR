@@ -38,7 +38,7 @@ pour lancer l'appication,
                     <% %> : signifiant que ce qui est entre ces balises est du language ruby
                     <%= %> : signifiant que ce qui est entre ces balises est du language ruby 
                              et qu'il faut l'afficher dans le navigateur
-                    link_to "Texte_a_cliquer_pour_acceder_au_lien", "nom_du_chemin_accedant_a_la_page_desiré"_path
+                    link_to "Texte_a_cliquer_pour_acceder_au_lien", "nom_du_chemin_accedant_a_la_page_desirée"_path
                   
    - 2.4 /
               1 - Pour creer une page dynamique: j'ai créer un nouveau controller nommée 'welcome' avec sa view 'show'
